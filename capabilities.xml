@@ -1,0 +1,76 @@
+<themeCapabilities>
+   
+	<themeName>BasicXMB</themeName>
+	
+	<aspectRatio>16:9</aspectRatio>
+	<aspectRatio>16:10</aspectRatio>
+	<aspectRatio>4:3</aspectRatio>
+	<aspectRatio>20:9</aspectRatio>
+	
+	<variant name="bg-lastplayed-waves-cover">
+		<label>BG-Last Played (Waves) | Gamelist-Cover</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="bg-lastplayed-waves-marquee">
+		<label>BG-Last Played (Waves) | Gamelist-Marquee</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="bg-lastplayed-waves-titlescreen">
+		<label>BG-Last Played (Waves) | Gamelist-Titlescreen</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="bg-waves-cover">
+		<label>BG-Waves | Gamelist-Cover</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="bg-waves-marquee">
+		<label>BG-Waves | Gamelist-Marquee</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="bg-waves-titlescreen">
+		<label>BG-Waves | Gamelist-Titlescreen</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="bg-wallpaper-cover">
+		<label>BG-Wallpaper | Gamelist-Cover</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="bg-wallpaper-marquee">
+		<label>BG-Wallpaper | Gamelist-Marquee</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<variant name="bg-wallpaper-titlescreen">
+		<label>BG-Wallpaper | Gamelist-Titlescreen</label>
+		<selectable>true</selectable>
+	</variant>
+	
+	<transitions name="transitions">
+		<label>transitions</label>
+		<selectable>false</selectable>
+		<systemToSystem>instant</systemToSystem>
+		<systemToGamelist>instant</systemToGamelist>
+		<gamelistToGamelist>instant</gamelistToGamelist>
+		<gamelistToSystem>instant</gamelistToSystem>
+		<startupToSystem>fade</startupToSystem>
+		<startupToGamelist>fade</startupToGamelist>
+	</transitions>
+	<suppressTransitionProfiles>
+		<entry>builtin-instant</entry>
+		<entry>builtin-slide</entry>
+		<entry>builtin-fade</entry>
+	</suppressTransitionProfiles>
+	
+	<colorScheme name="default">
+        <label>Default</label>
+        <selectable>false</selectable>
+    </colorScheme>
+    
+</themeCapabilities>
